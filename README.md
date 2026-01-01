@@ -7,7 +7,7 @@ A basic HTML and CSS project that visually represents the Indian flag using layo
 - Resume Project– [Click here to see](https://naazcodes.github.io/HTML-Projects/MyResume/)
 A personal resume webpage created using HTML and CSS to showcase skills, education, and contact details.
 
-- Web Design Agency Project– [Click here to see](https://naazcodes.github.io/HTML-Projects/Web%20Design%20Agency%20project/)
+- Web Design Agency Project– [Click here to see](https://naazcodes.github.io/HTML-Projects/Web%20Design%20Agency%20Project/)
 A static website design for a web design agency built using HTML and CSS, focusing on layout and styling.
 
 - Meme Page Project– [Click here to see](https://naazcodes.github.io/HTML-Projects/meme%20project/)
