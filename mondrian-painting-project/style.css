@@ -1,0 +1,196 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin-bottom: 100px;
+  background-image: linear-gradient(#73a2d4, #116485, #96aec4, #6b93cb);
+}
+
+.container {
+  display: grid;
+  margin-top: 50px;
+  width: 40vw;
+  /*grid-template: repeat(7, 100px) / repeat(7, 100px);
+    grid-template-columns: 0.5fr 0.5fr repeat(2, 2fr) 1.2fr 1.2fr 0.5fr;
+    grid-template-rows: 5vw repeat(3, 14vw) 11vw 6.5vw 6.5vw 5vw;
+    gap: 10px;
+    */
+  grid-template-columns: 0.5fr 1fr 1fr 2fr 1.2fr 1.2fr 0.5fr;
+  grid-template-rows: 3vw repeat(2, 8vw) 5vw 5vw 3.5vw 3.5vw 2vw;
+  gap: 10px;
+  background-color: black;
+}
+
+.h1 {
+  font-size: 1.8rem;
+  color: #012d3a;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 2px rgb(255, 255, 255), -1px -1px 1px rgb(236, 232, 232);
+}
+
+.item-1 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: whitesmoke;
+}
+
+.item-2 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: whitesmoke;
+}
+
+.item-3 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: yellow;
+}
+
+.item-4 {
+  grid-column: span 1;
+  grid-row: span 4;
+  background-color: whitesmoke;
+}
+
+.item-5 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: whitesmoke;
+}
+
+.item-6 {
+  grid-column: span 3;
+  grid-row: span 2;
+  background-color: red;
+}
+
+.item-7 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: yellow;
+}
+
+.item-8 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: whitesmoke;
+}
+
+.item-9 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: whitesmoke;
+}
+
+.item-10 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: whitesmoke;
+}
+
+.item-11 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: black;
+}
+
+.item-12 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: whitesmoke;
+}
+
+.item-13 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: whitesmoke;
+}
+
+.item-14 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: yellow;
+}
+
+.item-15 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: whitesmoke;
+}
+
+.item-16 {
+  grid-column: span 2;
+  grid-row: span 2;
+  background-color: rgb(1, 102, 204);
+}
+
+.item-17 {
+  grid-column: span 1;
+  grid-row: span 3;
+  background-color: red;
+}
+
+.item-18 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: whitesmoke;
+}
+
+.item-19 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: whitesmoke;
+}
+
+.item-20 {
+  grid-column: span 1;
+  grid-row: span 1;
+  background-color: black;
+}
+
+.item-21 {
+  grid-column: span 1;
+  grid-row: span 2;
+  background-color: whitesmoke;
+}
+
+.item-22 {
+  grid-column: span 3;
+  grid-row: span 1;
+  background-color: whitesmoke;
+}
+
+.item-23 {
+  grid-column: span 2;
+  grid-row: span 1;
+  background-color: whitesmoke;
+}
+
+.item-24 {
+  grid-column: span 4;
+  grid-row: span 1;
+  background-color: whitesmoke;
+}
+
+@media (min-width: 319px) and (max-width: 480px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  .container {
+    gap: 6px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .container {
+    gap: 8px;
+  }
+}
